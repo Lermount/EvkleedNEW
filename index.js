@@ -1,0 +1,1 @@
+let mySwiper=new Swiper('.swiper-container',{loop:!0,spaceBetween:50,autoplay:{delay:3000,disableOnInteraction:!1,},pagination:{el:'.swiper-pagination-bullets',},});let burger=document.getElementById('burger');let menu=document.getElementById('menu');burger.addEventListener('click',function(){menu.classList.toggle('is-active')});$(function(){$("#accordion").accordion()})
